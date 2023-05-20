@@ -1,0 +1,9 @@
+# .air.toml
+
+# Watch the current directory and restart the Go app whenever changes occur.
+root = "C:\\Users\\ket\\Desktop\\Youtube_courses\\goapi"
+tmp_dir = "tmp"
+include_ext = ["go"]
+exclude_dir = ["tmp", "vendor"]
+build_args = ["-tags", "development"]
+run_cmd = "go run main.go"
