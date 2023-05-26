@@ -4,6 +4,6 @@
 root = "C:\\Users\\ket\\Desktop\\Youtube_courses\\goapi"
 tmp_dir = "tmp"
 include_ext = ["go"]
-exclude_dir = ["tmp", "vendor"]
+exclude_dir = ["tmp", "vendor",".git"]
 build_args = ["-tags", "development"]
 run_cmd = "go run main.go"
